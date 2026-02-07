@@ -8,6 +8,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import service.ClientesService;
 
+@CrossOrigin("*")
 @RestController
 public class ClientesController {
     @Autowired
